@@ -1,4 +1,5 @@
 chrome.runtime.onInstalled.addListener(function() {
+  console.log(123);
   chrome.contextMenus.create({
     title: "Cambridge Learner's Dictionary",
     id: 'main',
